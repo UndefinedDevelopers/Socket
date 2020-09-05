@@ -1,0 +1,22 @@
+{
+  "name": "socket",
+  "version": "0.0.0",
+  "description": "A multipurpose discord bot designed to be one of the best!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UndefinedDevelopers/Socket.git"
+  },
+  "author": "UndefinedDevelopers",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/UndefinedDevelopers/Socket/issues"
+  },
+  "homepage": "https://github.com/UndefinedDevelopers/Socket#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
