@@ -5,8 +5,8 @@ services:
 - docker
 install:
 - echo $DISCORD_TOKEN > .env
+- npm i
 - docker build -t socket-bot .
-- docker run -d --name socket-bot socket-bot
 deploy:
   provider: gae
   keyfile: client-secret.json
