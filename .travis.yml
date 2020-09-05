@@ -3,7 +3,6 @@ services:
 - docker
 install:
 - echo $DISCORD_TOKEN > .env
-- npm i
 - docker build -t socket-bot .
 deploy:
   provider: gae
