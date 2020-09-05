@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:lts
 RUN mkdir -p /socket-bot
 WORKDIR /socket-bot
 COPY package.json /socket-bot
