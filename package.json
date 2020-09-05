@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "description": "A multipurpose discord bot designed to be one of the best!",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "node index.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UndefinedDevelopers/Socket.git"
