@@ -1,8 +1,9 @@
-language: minimal
+language: shell
 services:
 - docker
 os: linux
 dist: focal
+cache: npm
 install:
 - echo $DISCORD_TOKEN > .env
 - docker build -t socket-bot .

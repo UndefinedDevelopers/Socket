@@ -6,6 +6,7 @@ const client = new CommandoClient({
     commandPrefix: 's?',
     owner: '573909482619273255',
     invite: 'https://discord.gg/bRCvFy9',
+    unknownCommandResponse: false
 });
 
 client.registry
@@ -17,6 +18,7 @@ client.registry
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
+    .unregisterCommand('ping')
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
 client.once("ready", () => {
