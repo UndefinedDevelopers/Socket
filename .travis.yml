@@ -2,7 +2,7 @@ services:
 - docker
 install:
 - echo $DISCORD_TOKEN > .env
-- docker build -t socket .
+- docker build -t socket-bot .
 - docker run -d --name socket-bot socket-bot
 deploy:
   provider: gae
