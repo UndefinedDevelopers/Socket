@@ -1,7 +1,8 @@
-sudo: required
 language: minimal
 services:
 - docker
+os: linux
+dist: focal
 install:
 - echo $DISCORD_TOKEN > .env
 - docker build -t socket-bot .
