@@ -1,0 +1,13 @@
+services:
+- docker
+install:
+- echo $DISCORD_TOKEN > .env
+- docker build -t socket .
+- docker run -d --name socket-bot socket-bot
+deploy:
+  provider: gae
+  keyfile: client-secret.json
+  project: light-lambda-245521
+before_install:
+- openssl aes-256-cbc -K $encrypted_75ef5263a21f_key -iv $encrypted_75ef5263a21f_iv
+  -in client-secret.json.enc -out client-secret.json -d
