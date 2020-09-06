@@ -2,7 +2,7 @@ language: shell
 services:
 - docker
 os: linux
-dist: focal
+dist: bionic
 cache: npm
 install:
 - echo $DISCORD_TOKEN > .env

@@ -18,7 +18,6 @@ client.registry
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
-    .unregisterCommand('ping')
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
 client.once("ready", () => {
