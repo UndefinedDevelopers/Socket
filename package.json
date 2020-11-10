@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/UndefinedDevelopers/Socket#readme",
   "dependencies": {
-    "discord.js": "^12.3.1",
+    "discord.js": "^12.4.0",
     "discord.js-commando": "github:discordjs/Commando",
     "dotenv": "^8.2.0"
   }
